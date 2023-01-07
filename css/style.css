@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+ul>li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* section1 start */
+#section1 {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/banner2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1>.para {
+    max-width: 1600px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    padding-right: 150px;
+}
+
+#section1>.para>h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px #00000040;
+    max-width: 500px;
+}
+
+#section1>.para>p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    max-width: 500px;
+}
+
+#section1>.para>a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    padding: 15px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+}
+
+
+
+/* section2 start */
+#section2 {
+    width: 100%;
+    padding: 110px 0;
+}
+
+.section2-container {
+    max-width: 1600px;
+    padding: 0 150px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.section2-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 400px;
+}
+
+.section2-right>h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414
+}
+
+.section2-right>p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.section2-right>ul>li>p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.section2-right>ul>li {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.section2-right>ul>li>i {
+    font-size: 15px;
+    color: #16D887;
+}
+
+
+
+
+
+/* section3 start */
+#section3 {
+    width: 100%;
+    padding: 110px 0;
+}
+
+.section3-container {
+    max-width: 1150px;
+    flex-grow: 1;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}
+
+.section3-container>h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.section3-plan-container {
+    display: flex;
+    justify-content: center;
+}
+
+.section3-plan {
+    flex-basis: 25%;
+}
+
+.section3-plan>.text {
+    margin-top: 10px;
+}
+
+.section3-plan>.text>h4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+
+.section3-plan>.text>p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+    margin-top: 10px;
+}
+
+
+
+
+/* section4 start */
+#section4 {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.section4-container {
+    max-width: 1150px;
+    flex-grow: 1;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #F15B22 0%, #f15b2200 100%), url(../images/watch.png);
+    padding: 50px 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.section4-container>.section4-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 450px;
+}
+
+.section4-container>.section4-text>h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.section4-container>.section4-text>a {
+    font-style: normal;
+    width: fit-content;
+    font-weight: 600;
+    padding: 15px 25px;
+    font-size: 20px;
+    line-height: 23px;
+    background: #FFFFFF;
+    font-family: 'Work Sans';
+    color: #F15B22;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* footer section start */
+footer {
+    width: 100%;
+    padding: 100px 0;
+    background: #151414;
+}
+
+.footer-container {
+    max-width: 1150px;
+    flex-grow: 1;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+}
+
+.footer-left>h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer-left>p,a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.social-icon {
+    display: flex;
+    gap: 20px;
+}
+.social-icon > a{
+    border-radius: 100%;
+}
+
+
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-right>h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer-right>.mail-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-right>.mail-box>input[type=text] {
+    width: 330px;
+    padding: 20px;
+    border: 1.5px solid #ffffff;
+    background: transparent;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+}
+
+.footer-right>.mail-box>input[type=text]::placeholder {
+    color: #F3F3F3;
+}
+
+.footer-right>.mail-box>input[type=button] {
+    cursor: pointer;
+    font-style: normal;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    padding: 15px 25px;
+    width: fit-content;
+    color: #F15B22;
+    background: #ffffff;
+    border-radius: 8px;
+    line-height: 24px;
+}
